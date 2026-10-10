@@ -11,9 +11,41 @@ default_dirs:
 
 library:
   skills:
+    - name: brandkit
+      description: Premium brand-kit image generation for brand-guidelines boards, logo systems, identity decks, and visual-world presentations
+      source: /Users/jaimegrullon/.agents/skills/brandkit/SKILL.md
+
+    - name: design-taste-frontend
+      description: Anti-slop frontend skill for landing pages, portfolios, and redesigns that avoids templated-looking interfaces
+      source: /Users/jaimegrullon/.agents/skills/design-taste-frontend/SKILL.md
+
+    - name: find-skills
+      description: Helps discover and install agent skills when the user asks "how do I do X" or "is there a skill for X"
+      source: /Users/jaimegrullon/.agents/skills/find-skills/SKILL.md
+
+    - name: gpt-taste
+      description: UX/UI and GSAP motion engineer skill with randomized layouts, AIDA page structure, editorial typography, and bento grids
+      source: /Users/jaimegrullon/.agents/skills/gpt-taste/SKILL.md
+
+    - name: image-to-code
+      description: Generates design images first, analyzes them, then implements the website to match them closely
+      source: /Users/jaimegrullon/.agents/skills/image-to-code/SKILL.md
+
+    - name: imagegen-frontend-web
+      description: Generates premium website design reference images, one per section, with a consistent palette and varied compositions
+      source: /Users/jaimegrullon/.agents/skills/imagegen-frontend-web/SKILL.md
+
+    - name: minimalist-ui
+      description: Clean editorial-style interfaces with a warm monochrome palette, flat bento grids, and muted pastels
+      source: /Users/jaimegrullon/.agents/skills/minimalist-ui/SKILL.md
+
     - name: recall
       description: Search a project's memory logs (memory/log/ + memory/index.sqlite3) to answer questions about past work, with source citations
       source: /Users/jaimegrullon/Repos/pettags/.claude/skills/recall/SKILL.md
+
+    - name: redesign-existing-projects
+      description: Upgrades existing websites and apps to premium quality by auditing the current design and removing generic AI patterns
+      source: /Users/jaimegrullon/.agents/skills/redesign-existing-projects/SKILL.md
 
     - name: remember
       description: Save, update, or remove entries in a project's working-memory snapshot (memory/working-memory.md), which is injected at the start of every session
