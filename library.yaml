@@ -16,7 +16,7 @@ library:
       source: /Users/jaimegrullon/Repos/pettags/.claude/skills/recall/SKILL.md
 
     - name: remember
-      description: Skill that goes through memory and remembers the decisions that were previously made and why.
+      description: Save, update, or remove entries in a project's working-memory snapshot (memory/working-memory.md), which is injected at the start of every session
       source: /Users/jaimegrullon/Repos/pettags/.claude/skills/remember/SKILL.md
 
   agents: []
