@@ -10,6 +10,10 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: recall
+      description: Search a project's memory logs (memory/log/ + memory/index.sqlite3) to answer questions about past work, with source citations
+      source: /Users/jaimegrullon/Repos/pettags/.claude/skills/recall/SKILL.md
+
   agents: []
   prompts: []
