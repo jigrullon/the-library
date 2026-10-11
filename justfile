@@ -35,3 +35,7 @@ list:
 # Search the catalog by keyword
 search keyword:
     claude --dangerously-skip-permissions --model opus "/library search {{keyword}}"
+
+# Symlink repo skills into ~/.claude/skills (run on each device after cloning)
+link:
+    ./link.sh
